@@ -7,8 +7,8 @@ int editDistance(string n, string m);
 
 int main()
 {
-    string str1 = "BAJA";
-    string str2 = "JOTA";
+    string str1 = "KANJI";
+    string str2 = "TOKYO";
     int min = editDistance(str1, str2);
     cout << "La distancia minima es: " << min << endl;
 }
